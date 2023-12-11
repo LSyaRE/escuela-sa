@@ -9,8 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:escuela-sa": "node dist/escuela-sa/server/server.mjs",
-    "electron": "electron .",
-    "electron-build": "ng build && electron ."
+    "electron": "ng build && electron ."
   },
   "private": true,
   "dependencies": {
